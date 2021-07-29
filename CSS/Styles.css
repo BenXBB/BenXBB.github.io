@@ -1,0 +1,267 @@
+
+/*--------------- IDs ------------------*/
+
+  #webcontainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #mynameheader {
+    font-family: 'Sacramento', cursive;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 600%;
+    color: #F9F7F7;
+    font-weight: bolder;
+  }
+
+  #topheader {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #00ADB5;
+    margin-bottom: 1%;
+  }
+
+  #contact-me {
+    background-color: #222831;
+    text-align: center;
+    padding: 1% 20% 2% 20%;
+    letter-spacing: 0.04em;
+    color: #EEEEEE;
+    font-size: 115%;
+  }
+
+/*------------- ELEMENT TAGS -------------*/
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  nav {
+  text-align: center;
+  padding: 23px 0;
+  position: fixed;
+  background-color: rgba(20, 20, 20, 0.9);
+  width: 100%;
+  height: 25px;
+  margin: 0 auto;
+  z-index: 5;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+  }
+
+  nav li {
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.50em 1em;
+    font-family: calibri, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+
+  nav a:hover {
+    background-color: #fafafa;
+    color: black;
+    text-decoration: none;
+    padding: 0.25 0.50em;
+  }
+
+  hr {
+    border-color: #0f4c75;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 8%;
+  }
+
+  em {
+    color: #F9F7F7;
+    margin-left: 10px;
+  }
+
+  h2, h3, h4, h5 {
+    color: #00ADB5;
+    font-style: italic;
+  }
+
+
+  /*------------- DIV CLASSES -----------------*/
+  .topcontainer {
+    background-color: #d3e0ea;
+    text-align: center;
+    padding: 300px 15% 0 15%;
+    letter-spacing: 0.04em;
+    color: #DBE2EF;
+    background-image: url("../Images/coverphoto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    opacity: 0.9;
+    text-shadow: 3px 3px 20px black;
+    font-weight: 900;
+  }
+
+  .topcontainer p {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 85%;
+    font-weight: 500;
+    font-size: 150%;
+  }
+
+  .skillscontainer {
+    background-color: #222831;
+    text-align: left;
+    padding: 1.5% 20% 1.5% 20%;
+    font-size: 115%;
+    letter-spacing: 0.01em;
+    line-height: 1.8em;
+  }
+
+  .skillscontainer p {
+    margin-left: 1rem;
+    color: #EEEEEE;
+    text-shadow: 1px 1px 1px black;
+    }
+
+  .skillscontainer h4 {
+    margin-left: 1rem;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .bottomcontainer {
+    background-color: #222831;
+    text-align: center;
+    padding: 0 20% 1% 20%;
+    color: #EEEEEE;
+    font-size: 100%;
+    letter-spacing: 0.015em;
+    line-height: 1.6em;
+    font-weight: 500;
+  }
+
+  .bottomcontainer a {
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #00ADB5;
+    font-weight: bold;
+  }
+
+  .leaveMessageForm { /*Edited middlecontainer */
+  background-color: #f6f5f5;
+  text-align: center;
+  padding: 1px 350px 1px 350px;
+  font-size: 115%;
+  letter-spacing: 0.03em;
+  }
+
+/*--------------- IMG CLASSES ----------*/
+  .topcloud {
+    float: left;
+    position: absolute;
+    opacity: 0.4;
+    left: 80px;
+  }
+
+  .bottomcloud {
+    display: inline-block;
+    position: absolute;
+    opacity: 0.4;
+    right: 100px;
+  }
+  .programming {
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .world {
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+  }
+
+/*---------------CONTACT ME BUTTON ----------*/
+  .btn {
+     background: #3D94F6;
+     background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+     background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+     background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+     background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+     background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     height: 10px;
+     line-height: 10px;
+     color: #FFFFFF;
+     font-family: Calibri;
+     width: 200px;
+     font-size: 30px;
+     font-weight: 100;
+     padding: 20px;
+     -webkit-box-shadow: 1px 0 10px 0 #000000;
+     -moz-box-shadow: 1px 0 10px 0 #000000;
+     box-shadow: 1px 0 10px 0 #000000;
+     text-shadow: 1px 1px 20px #0059A0;
+     border: solid #337FED 1px;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+     text-align: center;
+  }
+
+  .btn:hover {
+     border: solid #337FED 1px;
+     background: #1E62D0;
+     background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+     background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+     background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+     background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+     background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     text-decoration: none;
+  }
+
+
+  @media only screen and (max-width: 750px) {
+    body {
+      font-size: 0.75rem;
+    }
+
+    .btn {
+      width: 150px;
+      font-size: 20px;
+    }
+
+    .programming {
+      width: 125px;
+      float: left;
+      margin-right: 30px;
+    }
+  
+    .world {
+      width: 125px;
+      float: right;
+      margin-left: 30px;
+    }
+  }
