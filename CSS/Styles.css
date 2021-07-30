@@ -30,17 +30,15 @@
     padding: 1% 20% 2% 20%;
     letter-spacing: 0.04em;
     color: #EEEEEE;
-    font-size: 115%;
   }
 
   #projectscontainer {
     background-color: rgba(13, 41, 56, 0.95);
     text-align: left;
-    padding: 1.5% 20% 1.5% 20%;
-    font-size: 115%;
+    padding: 1.5% 10% 1.5% 10%;
     letter-spacing: 0.01em;
     line-height: 1.8em;
-    height: 500px;
+    height: 1000px;
   }
 
 /*------------- ELEMENT TAGS -------------*/
@@ -139,7 +137,6 @@
     background-color: #222831;
     text-align: left;
     padding: 1.5% 20% 1.5% 20%;
-    font-size: 115%;
     letter-spacing: 0.01em;
     line-height: 1.8em;
   }
@@ -159,6 +156,10 @@
     margin-left: 1rem;
     color: #EEEEEE;
     text-shadow: 1px 1px 1px black;
+    }
+  
+  .projectrow {
+      display: inline-block;
     }
 
   .bottomcontainer {
@@ -287,7 +288,7 @@
     -moz-box-shadow: 1px 0 10px 0 #000000;
     box-shadow: 1px 0 10px 0 #000000;
     text-shadow: 1px 1px 20px #0059A0;
-    border: solid #337FED 1px;
+    border: solid #000000 1px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
@@ -309,7 +310,7 @@
  }
 
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 980px) {
     body {
       font-size: 0.75rem;
     }
@@ -330,4 +331,50 @@
       float: right;
       margin-left: 30px;
     }
+
+    .projectphoto {
+      width: 300px;
+      margin-right: 10px;
+    }
+
+    #projectscontainer {
+      padding: 1.5% 2% 1.5% 2%;
+    }
+
+    .skillscontainer {
+      padding: 1.5% 5% 1.5% 5%;
+      font-size: 0.5rem;
+    }
+
+    .projectbtn {
+      height: 5px;
+      width: 20px;
+      padding: 15px;
+      font-size: 20px;
+   }
   }
+
+  @media only screen and (max-width: 1520px) {
+    #projectscontainer {
+      padding: 1.5% 20% 1.5% 20%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #projectscontainer {
+      font-size: 1rem;
+    }
+
+    .projectbtn {
+      height: 3px;
+      width: 15px;
+      padding: 10px;
+      font-size: 10px;
+   }
+
+   .projectphoto {
+    width: 245px;
+    margin-right: 10px;
+  }
+  }
+
